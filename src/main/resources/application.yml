@@ -1,0 +1,7 @@
+spring:
+  rabbitmq:
+    port: 45672
+
+listener:
+  exchangeName: ""
+  queueName: "emails.sender"
